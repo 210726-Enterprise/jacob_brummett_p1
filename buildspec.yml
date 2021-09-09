@@ -5,6 +5,7 @@ phases:
       java: corretto8
   build:
     commands:
+      - cd jacob_brummett_p1
       - mvn clean
   post_build:
     commands:
